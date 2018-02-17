@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Parallax Master Class Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<div id="skrollr-body">
+
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+        your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--<div id="offset">-->
+    <!--10-->
+    <!--</div>-->
+
+    <div id="fixedElement"
+         data-top="transform: translateY(0%); opacity: 1"
+         data--5p-top="transform: translateY(200%); opacity: 0"
+    >
+        Hello, how are you?
+    </div>
+
+    <div id="progressBar" data-0="height: 0%" data-end="height: 100%"></div>
+
+    <!--<header data-top="opacity: 1" data&#45;&#45;400-top="opacity: 0">-->
+    <header>
+        <div class="wrapper clearfix">
+
+            <div data-100-top="opacity: 1" data-top="opacity: 0">
+                <h1 class="title">Parallax Scrolling Master Class</h1>
+                <p>Hitting the Skrollr.js data-attributes right between the eyes!</p>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div id="profiles"
+             data-bottom-top="background-position: 50% 0%"
+             data-top-bottom="background-position: 50% -20%">
+            <div class="wrapper clearfix">
+
+                <div class="boxer boxerA"
+                     data--280-top="opacity: 1"
+                     data--300-top="opacity: 0">
+
+                    <div class="boxerImg"
+                         data-bottom="opacity: 0; transform: scale(0.5)"
+                         data--40-bottom="opacity: 1; transform: scale(1)">
+                    </div>
+                    <div
+                            data--40-bottom="opacity: 0; transform: translateX(-100%)"
+                            data--80-bottom="opacity: 1; transform:  translateX(0%)">
+                        <h2>Amir <br/>Khan</h2>
+                        <p>Donec consectetur egestas auctor. Nullam mattis lectus vel tellus semper, vel lacinia justo
+                            fringilla. Vestibulum semper pulvinar accumsan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="boxer boxerB"
+                     data--280-top="opacity: 1"
+                     data--300-top="opacity: 0">
+
+                    <div class="boxerImg"
+                         data--40-bottom="opacity: 0"
+                         data--80-bottom="opacity: 1">
+                    </div>
+                    <div
+                            data--80-bottom="opacity: 0; transform: translateX(-100%)"
+                            data--120-bottom="opacity: 1; transform:  translateX(0%)">
+                        <h2>Floyd <br/>Mayweather</h2>
+                        <p>Donec consectetur egestas auctor. Nullam mattis lectus vel tellus semper, vel lacinia justo
+                            fringilla. Vestibulum semper pulvinar accumsan.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="boxingRing"
+             data-bottom-top="z-index:!-1"
+             data-top="z-index:!1">
+            <div class="wrapper clearfix">
+
+                <div id="stage"
+                     data-bottom-top="transform[swing]:scale(0.5) rotate(120deg)"
+                     data-top="transform[swing]:scale(1) rotate(0deg)"
+                     data--117p-top="transform[swing]:scale(1) rotate(0deg)"
+                     data--155p-top="transform[swing]:scale(0.6) rotate(-15deg)"
+                     data--169p-top="transform[swing]:scale(1) rotate(10deg)"
+                     data--190p-top="transform[swing]:scale(1) rotate(0deg)"
+                     data--500p-top="transform[swing]:scale(0.3) rotate(-360deg)"
+                     data-anchor-target="#boxingRing">
+                    <div class="boxerTop boxerTopA"
+                         data-2p-top="opacity: 0; transform[bounce]:scale(0.5); transform:translateY(0%) translateX(0%) rotate(0deg); z-index: !1"
+                         data-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(0%) translateX(0%) rotate(0deg); z-index: !1"
+                         data--117p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(0%) translateX(0%) rotate(0deg); z-index: !1"
+                         data--123p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(110%) translateX(80%) rotate(0deg); z-index: !1"
+                         data--127p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(110%) translateX(80%) rotate(0deg); z-index: !1"
+                         data--130p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(80%) translateX(60%) rotate(0deg); z-index: !3"
+                         data--135p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(130%) translateX(70%) rotate(35deg); z-index: !3"
+                         data--138p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(155%) translateX(95%) rotate(0deg); z-index: !3"
+                         data--143p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(165%) translateX(105%) rotate(40deg); z-index: !3"
+                         data--148p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(165%) translateX(105%) rotate(0deg); z-index: !3"
+                         data--153p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(145%) translateX(85%) rotate(0deg); z-index: !3"
+                         data--153p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(145%) translateX(85%) rotate(0deg); z-index: !3"
+                         data--158p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(125%) translateX(65%) rotate(10deg); z-index: !3"
+                         data--163p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(115%) translateX(85%) rotate(20deg); z-index: !3"
+                         data--168p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(125%) translateX(85%) rotate(60deg); z-index: !3"
+                         data--176p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(115%) translateX(95%) rotate(80deg); z-index: !3"
+                         data--190p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(100%) translateX(105%) rotate(90deg); z-index: !3"
+                         data--250p-top="opacity: 0; transform[bounce]:scale(1); transform:translateY(100%) translateX(105%) rotate(90deg); z-index: !3"
+                         data-anchor-target="#boxingRing">
+
+                    </div>
+                    <div class="boxerTop boxerTopB"
+                         data-1p-top="opacity: 0; transform[bounce]:scale(0.5); transform:translateY(0%) translateX(0%) rotate(0deg); z-index: !2"
+                         data-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(0%) translateX(0%) rotate(0deg); z-index: !2"
+                         data--117p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(0%) translateX(0%) rotate(0deg); z-index: !2"
+                         data--123p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-85%) translateX(-80%) rotate(0deg); z-index: !2"
+                         data--127p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-85%) translateX(-80%) rotate(50deg); z-index: !2"
+                         data--130p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-85%) translateX(-80%) rotate(0deg); z-index: !2"
+                         data--130p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-85%) translateX(-80%) rotate(0deg); z-index: !2"
+                         data--135p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-65%) translateX(-60%) rotate(10deg); z-index: !2"
+                         data--140p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-40%) translateX(-35%) rotate(-10deg); z-index: !2"
+                         data--143p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-40%) translateX(-35%) rotate(0deg); z-index: !2"
+                         data--149p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-40%) translateX(-35%) rotate(0deg); z-index: !4"
+                         data--155p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-70%) translateX(-55%) rotate(30deg); z-index: !4"
+                         data--160p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-70%) translateX(-75%) rotate(40deg); z-index: !4"
+                         data--168p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-60%) translateX(-85%) rotate(30deg); z-index: !4"
+                         data--172p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-55%) translateX(-95%) rotate(50deg); z-index: !4"
+                         data--177p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-60%) translateX(-105%) rotate(105deg); z-index: !4"
+                         data--190p-top="opacity: 1; transform[bounce]:scale(1); transform:translateY(-45%) translateX(-125%) rotate(105deg); z-index: !4"
+                         data--250p-top="opacity: 0; transform[bounce]:scale(1); transform:translateY(-45%) translateX(-125%) rotate(105deg); z-index: !4"
+                         data-anchor-target="#boxingRing">
+
+                    </div>
+                    <div id="moves"
+                         data-anchor-target="#boxingRing"
+                         data--25p-top="opacity: 0; background-image: !url(img/img_move1.png);"
+                         data--45p-top="opacity: 1; background-image: !url(img/img_move2.png);"
+                         data--65p-top="opacity: 1; background-image: !url(img/img_move3.png);"
+                         data--85p-top="opacity: 1; background-image: !url(img/img_move1.png);"
+                         data--90p-top="opacity: 0; background-image: !url(img/img_move1.png);">
+                    </div>
+                </div>
+
+                <div id="round1"
+                     data-anchor-target="#boxingRing"
+                     data-top="opacity: 0; transform:translateY(200px)"
+                     data--7p-top="opacity: 1; transform:translateY(0px)"
+                     data--15p-top="opacity: 1; transform:translateY(0px)"
+                     data--17p-top="opacity: 0; transform:translateY(-400px)" >
+                    Round 1
+                </div>
+
+                <div id="round2"
+                     data-anchor-target="#boxingRing"
+                     data--100p-top="opacity: 0; transform: translateY(200px)"
+                     data--107p-top="opacity: 1; transform: translateY(0px)"
+                     data--115p-top="opacity: 1; transform: translateY(0px)"
+                     data--117p-top="opacity: 0; transform: translateY(-400px)">
+                    Round 2
+                </div>
+
+                <div class="indicator"
+                     data-anchor-target="#boxingRing"
+                     data-top="opacity: !0; background-color: !rgb(171,204,20); height: 0px"
+                     data--17p-top="opacity: !1; background-color: !rgb(171,204,20); height: 5px"
+                     data--35p-top="opacity: !1; background-color: !rgb(255,204,20); height: 70px"
+                     data--40p-top="opacity: !1; background-color: !rgb(255,204,20); height: 120px"
+                     data--47p-top="opacity: !1; background-color: !rgb(255,204,20); height: 70px"
+                     data--60p-top="opacity: !1; background-color: !rgb(231,76,60); height: 200px"
+                     data--75p-top="opacity: !1; background-color: !rgb(231,76,60); height: 250px"
+                     data--80p-top="opacity: !1; background-color: !rgb(231,76,60); height: 210px"
+                     data--90p-top="opacity: !1; background-color: !rgb(231,76,60); height: 300px"
+
+                     data--117p-top="opacity: !1; background-color: !rgb(171,204,20); height: 5px"
+                     data--135p-top="opacity: !1; background-color: !rgb(255,204,20); height: 70px"
+                     data--140p-top="opacity: !1; background-color: !rgb(255,204,20); height: 120px"
+                     data--147p-top="opacity: !1; background-color: !rgb(255,204,20); height: 70px"
+                     data--160p-top="opacity: !1; background-color: !rgb(231,76,60); height: 200px"
+                     data--175p-top="opacity: !1; background-color: !rgb(231,76,60); height: 250px"
+                     data--180p-top="opacity: !1; background-color: !rgb(231,76,60); height: 210px"
+                     data--190p-top="opacity: !1; background-color: !rgb(231,76,60); height: 300px"
+
+                     data--220p-top="opacity: !0; background-color: !rgb(231,76,60); height: 300px">
+                    <p>Fatigue</p>
+                </div>
+
+                <div class="indicator indicatorB"
+                     data-anchor-target="#boxingRing"
+                     data-top="opacity: !0; background-color: !rgb(171,204,20); height: 0px"
+                     data--17p-top="opacity: !1; background-color: !rgb(171,204,20); height: 5px"
+                     data--35p-top="opacity: !1; background-color: !rgb(255,204,20); height: 20px"
+                     data--45p-top="opacity: !1; background-color: !rgb(255,204,20); height: 220px"
+                     data--49p-top="opacity: !1; background-color: !rgb(255,204,20); height: 190px"
+                     data--63p-top="opacity: !1; background-color: !rgb(231,76,60); height: 240px"
+                     data--82p-top="opacity: !1; background-color: !rgb(255,204,20); height: 200px"
+
+                     data--117p-top="opacity: !1; background-color: !rgb(171,204,20); height: 5px"
+                     data--135p-top="opacity: !1; background-color: !rgb(255,204,20); height: 20px"
+                     data--145p-top="opacity: !1; background-color: !rgb(255,204,20); height: 220px"
+                     data--149p-top="opacity: !1; background-color: !rgb(255,204,20); height: 190px"
+                     data--163p-top="opacity: !1; background-color: !rgb(231,76,60); height: 240px"
+                     data--182p-top="opacity: !1; background-color: !rgb(231,76,60); height: 300px"
+
+                     data--220p-top="opacity: !0; background-color: !rgb(231,76,60); height: 300px">
+                    <p>Fatigue</p>
+                </div>
+
+                <div id="winnersTrophy"
+                     data--130p-top="transform: translateY(80%); background-color: rgba(31,31,31,0);"
+                     data--200p-top="transform: translateY(50%); background-color: rgba(31,31,31,1);"
+                     data-anchor-target="#boxingRing"
+                ></div>
+
+                <div class="winnersText">
+                    <h2
+                            data-top="display: none;"
+                            data-800-end="display: block; opacity: 0"
+                            data-500-end="display: block; opacity: 1"
+                            data-anchor-target="body"
+                    >And the winner is...YOU!</h2>
+                    <div class="copy"
+                         data-top="display: none;"
+                         data-900-end="display: block; opacity: 0"
+                         data-500-end="display: block; opacity: 0"
+                         data-end="display: block; opacity: 1"
+                         data-anchor-target="body"
+                    >
+                        <p>Congratulations on making it throught the Scrolling Welterweight Championship. You are officially a parallax scrolling champion!<br /><br />
+                            <span class="info">Please note: This is what you get when you try to implement scrolling animations on touch devices. My recommendations to you is to turn off Skrollr for touch devices or think about you mobile layout of the animations <br/>AT THE START OF THE PROJECT!</span>
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <div id="beam"
+                     data-top="display: none; opacity: 0"
+                     data-1200-end="display: block; opacity: 0"
+                     data-1100-end="display: block; opacity: 1"
+                     data-anchor-target="body"
+                ></div>
+                <div id="belt"
+                     data-top="display: none; opacity: 0; transform[bounce]: translateY(-100%) scale(0.7);"
+                     data-1100-end="display: block; opacity: 1; transform[bounce]: translateY(-100%) scale(0.7);"
+                     data-900-end="display: block; opacity: 1; transform[bounce]: translateY(0%) scale(1);"
+                     data-anchor-target="body"
+                ></div>
+
+            </div>
+        </div>
+
+    </main><!-- /main -->
+
+    <footer data-end="background-color: rgb(255, 255, 255)" data-25-end="background-color: rgb(231, 231, 231)">
+        <div class="wrapper clearfix">
+            <p>&copy; 2014 Ihatetomatoes.net</p>
+        </div>
+    </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="./js/enquire.min.js"></script>
+<script type="text/javascript" src="./js/skrollr.min.js"></script>
+
+<script src="./js/plugins.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
